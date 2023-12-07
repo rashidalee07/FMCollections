@@ -1,0 +1,44 @@
+/*==================Add Product===================*/
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .add-product-container {
+    background-color:#64a0e6;
+    margin-top:1rem;
+  }
+  
+  .input-wrapper label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+  }
+  .product-input{
+    /* margin-top: 2rem; */
+    width: 320px;
+    height: 40px;
+    padding-left: 0.25rem;
+    border: solid 1px #112A46;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: start;
+    border-radius: 4px;
+    
+  }
+  .product-text-area {
+    height: 140px;
+    width: 320px;
+  }
+  .add-product-button{
+    padding: .75rem 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  
+  .product-input:focus{
+    border:none
+  }

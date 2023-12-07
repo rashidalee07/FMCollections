@@ -1,0 +1,76 @@
+/* =======================================Home Page======================================= */
+
+.main-nav {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading-primary-large{
+    color: #112A46;
+}
+
+.nav-items
+{
+    display: flex;
+    gap: 1rem;
+   
+}
+.nav-items-d
+{
+    display: flex;
+    gap: 1rem;
+   
+}
+.nav-items li {
+text-decoration: none;
+font-size: 1.4rem;
+
+}
+/* .nav-items Link li ion {
+  text-decoration: none;
+  font-size: 2rem;
+  
+  } */
+
+
+
+.nav-icons{
+ height: 48px;
+ width: 48px;
+  }
+
+.search-bar{
+    /* background-color: #112A46; */
+    width: 40%;
+    height: 48px;
+    border-radius: 4px;
+    color:#112A46;
+    border: 1px solid #112A46;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.search-bar::placeholder{
+    color:#112A46;
+    font-size: 14px;
+    font-weight: 300;
+}
+.search-bar:focus{
+    outline: none;
+    border: 1px solid #112A46
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-items Link {
+   
+}
+.nav-items li {
+   
+    color: #112A46;
+    
+}

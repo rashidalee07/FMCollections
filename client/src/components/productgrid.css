@@ -1,0 +1,113 @@
+/* ===========================================PRODUCT GRID========================================= */
+.product-grid {
+    margin-top: 4rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.25rem;
+    /* padding: 4rem 2rem; */
+    
+}
+.product-card{
+  position: relative;
+   
+    /* background-color:#ACC8E5; */
+    /* background-color: #112A46; */
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center; 
+    /* padding: 1.5rem 3rem; */
+    color: #112A46;
+    overflow: hidden;
+}
+
+.grid-fav-btn {
+  position: absolute;
+  right: 5%;
+  top:2%;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #051930;
+  cursor: pointer;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  right: 15%;
+  top: 2%;
+  /* transform: translateX(-50%); */
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+ 
+}
+.grid-fav-btn:hover+.message{
+  display: block;
+  color: #fff;
+}
+.short-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1.25rem;
+    padding: 0.5rem 0.5rem;
+}
+.prod-short-detail {
+
+    list-style: none;
+}
+
+.prod-short-detail li {
+    color: #112A46;
+    list-style: none;
+    text-decoration: none;
+    text-align: start;
+}
+.img-container {
+    /* max-width: 100%;
+    height: auto; */
+    overflow: hidden;
+
+}
+
+.product-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; 
+}
+
+
+
+.product-image:hover{
+    /* background-image: url(); */
+    transform: scale(1.2);
+}
+.heading-primary {
+    font-size: 1.75rem;
+}
+.product-price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.product-price span {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.design-description {
+display: flex;
+list-style: none;
+flex-direction: column;
+margin-top: 1rem;
+gap: 0.5rem;
+}
+
+.design-item strong {
+    font-weight: 600;
+
+}

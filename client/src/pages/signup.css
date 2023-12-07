@@ -1,0 +1,27 @@
+/* =============================================== Signup Form ============================================== */
+
+.signup-container {
+    position: relative;
+    background-color: #051930;
+    height: 100vh;
+  }
+  
+  .form-container {
+    position: absolute;
+    background-color: #FFF;
+    left:50%;
+    top:50%;
+    height:600px;
+    width:640px;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+  
+  }
+  
+  .signup-form {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+   
+  }
